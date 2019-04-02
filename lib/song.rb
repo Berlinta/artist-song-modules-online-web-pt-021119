@@ -1,6 +1,7 @@
 require 'pry'
 
 class Song
+  extend Fndable::ClassMethods
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
   attr_accessor :name
